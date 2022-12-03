@@ -1,4 +1,5 @@
-# OSS_STUDY
+<h3 align="center"> OSS_STUDY </h3>
+
 - git bash 기본설정하기
 ```bash
 $ cd 저장소 폴더 ----- 깃 저장소 폴더
