@@ -202,4 +202,23 @@ $ git stasht pop
 ```bash
 $ git stash branch 브랜치이름
 ```
-
+- 스태시 스택에 저장된 항목들을 브랜치에서 복원할 때
+```bash
+# git stash apply
+```
+- 스태시 목록에서 삭제할 때
+```bash
+$ git stash drop
+```
+- 워킹디렉터리에 있는 추적되지 않는 파일 삭제
+```bash
+$ git clean
+```
+- 병합하지 않은 브랜치 확인
+```bash
+$ git branch --merged
+```
+- 리베이스 작업
+```bash
+$ git rebase 브랜치
+```
