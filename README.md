@@ -112,3 +112,39 @@ $ git commit -am "커밋 메시지"
 ```bash
 $  git commit --allow-empty-message -m "" ----- 커밋 메시지를 작성하지 않음
 ```
+- 특정 커밋의 상세 정보를 확인하고 싶을 때
+```bash
+$ git show 커밋ID
+```
+- 스테이지 vs 워킹 디렉터리
+```bash
+$ git diff ----- 스테이지 vs 워킹 디렉터리 비교
+```
+- diff 내용을 추가해서 커밋
+```bash
+$ git commit -v ----- diff 내용 추가
+```
+- 로컬 저장소를 서버로 이용할 때
+```bash
+$ git remote add 원격저장소별칭 폴더경로
+```
+- 원격 저장소로 연결할 때
+```bash
+$ git remote add 원격저장소별칭 원격저장소URL
+```
+- 등록된 원격 저장소 삭제
+```bash
+$ git remote rm 원격저장소별칭
+```
+- 원격저장소로 로컬 깃 저장소의 내용을 전송할 때
+```bash
+$ git push 원격저장소별칭 브랜치이름
+```
+- 원격 저장소의 갱신된 내용을 추가로 내려받을 때
+``` bash
+$ git pull
+```
+- 수동 병합
+```bash
+$ git merge 원격저장소별칭 / 브랜치이름
+```
