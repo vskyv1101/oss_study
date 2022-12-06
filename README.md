@@ -197,7 +197,7 @@ $ git stash list ----- list 옵션을 사용하여 스태시에 저장된 스택
 ```
 - 스태시에 임시 저장한 작업 내용들을 읽고 다시 적용하기
 ```bash
-$ git stasht pop
+$ git stash pop
 ```
 - 스태시 스택에 저장된 내용으로 새로운 브랜치를 동시 생성 가능
 ```bash
